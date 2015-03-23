@@ -30,8 +30,3 @@ Wilkommen
 ## Slide 5 
 Kapput
 --- 
-## Slide 6
-Kapput
---- 
-## Slide 7
-Kapput
