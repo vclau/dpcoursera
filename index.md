@@ -11,12 +11,16 @@ mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
 ---
 
-## Slide 1
+## Twitter Data Products 
 
 --- 
 
-## Slide 2
-Hola mundo 
+## How it works
+The first user you input should be your brand and the other two the competitors. The users should be entered as: “@brand”
+
+Each TW user you input retreives the latest 500 mentions*. *There might be some cases when there are not enough mentions to retreive
+
+Tweets are separated to get the ones made exclusively by each brand and the number of RTs and Fav is added into interactions. 
 
 --- 
 ## Slide 3
@@ -27,6 +31,14 @@ Hello World
 Wilkommen
 
 --- 
-## Slide 5 
-Kapput
+## About
+
+This project was created for the Coursera Data Science Specialization
+
+References
+**Shiny R Studio Tutorials
+**TwitterR package
+
+
 --- 
+
