@@ -12,6 +12,8 @@ knit        : slidify::knit2slides
 ---
 
 ## Twitter Data Products 
+By Claudia V
+
 
 --- 
 
@@ -43,12 +45,8 @@ myplot<-qplot( Hour, int, data = Brand,color=screenName, geom = "point") +
   geom_point() + theme_grey(base_size = 18) +
   xlab("Hora de Publicación") +
   ylab("Total de Interacciones") +
-  labs(title = "Promedio de interacciones TW por marca por Hora")
+  labs(title = "Interacciones TW ")
 print(myplot)
-
-
-```
-```{r plot, echo=FALSE}
 
 myplot<-qplot( Hour, int, data = Brand,color=screenName, geom = "point") +
   geom_point() + theme_grey(base_size = 18) +
@@ -59,12 +57,12 @@ print(myplot)
 
 
 ```
---- 
+
+---
 ## About
 This project was created for the Coursera Data Science Specialization
-
-References
 Shiny R Studio Tutorials
 TwitterR package
+http://blog.dataweave.in/post/96618078833/building-a-twitter-sentiment-analysis-app-using-r
 
 --- 

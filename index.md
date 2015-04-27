@@ -12,6 +12,8 @@ knit        : slidify::knit2slides
 ---
 
 ## Twitter Data Products 
+By Claudia V
+
 
 --- 
 
@@ -33,14 +35,13 @@ Tweets are separated to get the ones made exclusively by each brand and the numb
 
 --- 
 ## Sample Plots 
-![plot of chunk chunk_name](assets/fig/chunk_name-1.png) 
-![plot of chunk plot](assets/fig/plot-1.png) 
---- 
+![plot of chunk chunk_name](assets/fig/chunk_name-1.png) ![plot of chunk chunk_name](assets/fig/chunk_name-2.png) 
+
+---
 ## About
 This project was created for the Coursera Data Science Specialization
-
-References
 Shiny R Studio Tutorials
 TwitterR package
+http://blog.dataweave.in/post/96618078833/building-a-twitter-sentiment-analysis-app-using-r
 
 --- 
