@@ -33,10 +33,32 @@ Tweets are separated to get the ones made exclusively by each brand and the numb
 
 --- 
 ## Sample Plots 
-```{r chunk_name, echo=FALSE}
+```{r chunk_name, echo=FALSE, message=FALSE}
+library(repmis)
+Brand <- repmis::source_DropboxData("sampleData.csv",
+                                  "ma62f5cmcey5ht9",
+                                  sep = ",",
+                                  header = TRUE)
+myplot<-qplot( Hour, int, data = Brand,color=screenName, geom = "point") +
+  geom_point() + theme_grey(base_size = 18) +
+  xlab("Hora de Publicación") +
+  ylab("Total de Interacciones") +
+  labs(title = "Promedio de interacciones TW por marca por Hora")
+print(myplot)
+
 
 ```
+```{r plot, echo=FALSE}
 
+myplot<-qplot( Hour, int, data = Brand,color=screenName, geom = "point") +
+  geom_point() + theme_grey(base_size = 18) +
+  xlab("Hora de Publicación") +
+  ylab("Total de Interacciones") +
+  labs(title = "Promedio de interacciones TW por marca por Hora")
+print(myplot)
+
+
+```
 --- 
 ## About
 This project was created for the Coursera Data Science Specialization

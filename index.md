@@ -33,8 +33,8 @@ Tweets are separated to get the ones made exclusively by each brand and the numb
 
 --- 
 ## Sample Plots 
-
-
+![plot of chunk chunk_name](assets/fig/chunk_name-1.png) 
+![plot of chunk plot](assets/fig/plot-1.png) 
 --- 
 ## About
 This project was created for the Coursera Data Science Specialization
